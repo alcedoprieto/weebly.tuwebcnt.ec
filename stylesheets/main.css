@@ -159,6 +159,14 @@ footer.mastfoot{
   z-index: 9990;
 
 }
+footer.mastfootNic{
+  height: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 9990;
+
+}
 .credits{
   margin-top: 10px;
 }
