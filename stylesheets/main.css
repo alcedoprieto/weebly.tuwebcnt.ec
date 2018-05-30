@@ -152,7 +152,7 @@ header.masthead{
 /* 3. Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer.mastfoot{
-  height: 90px;
+  height: 50px;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -501,7 +501,7 @@ section.mastwrap{
     text-transform: uppercase;
 }
 .works-filter-panel{
-  height: 90px;
+  height: 50px;
   /*display: none;*/
   width: 100%;
   z-index: 9990;
@@ -537,7 +537,7 @@ section.mastwrap{
 .works-container{
     padding: 0;
   overflow: hidden;
-  top: 90px;
+  top: 50px;
 }
 .works-filter li:last-child:after{
     display: none;
