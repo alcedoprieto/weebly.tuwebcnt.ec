@@ -12,6 +12,6 @@ window.cookieconsent.initialise({
     "message": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios. Si continúa con la navegación, consideraremos que acepta este uso.",
     "dismiss": "ACEPTAR",
     "link": "Leer más",
-    "href": "http://comercioelectronico.ec/politica-de-privacidad/"
+    "href": "Recursos/web/politicas.html"
   }
 })});
