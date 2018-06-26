@@ -13,12 +13,14 @@
 //Detecting viewpot dimension
     var vH = $(window).height();
     var vW = $(window).width();
+    
     /*if ($('ImagenPost').length) {
         var tamanno = document.getElementById('ImagenPost').width;
         //$('.fullwidthPost').css('zoom',vW/(tamanno*1.1));
         tamanno.width = '100%';
       }*/
-
+      
+      
 //Adjusting Intro Components Spacing based on detected screen resolution
     $('.fullwidth').css('width',vW);
     
@@ -246,7 +248,9 @@
 $('.works-container').isotope({ filter: '.1' });   
 })();
 //  Outer wrapper $(function ($)  : ends
-
+$(document).ready(function(){
+    $('.imagenHeights').height($('#ImagenPost').height());
+  });
 
 
 

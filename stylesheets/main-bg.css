@@ -24,7 +24,7 @@ replace preview images directly;
     background-image: url('../images/featured/05.jpg');
 }
 .about-bg{
-    background-image: url('../images/bg/01.jpg');
+    background-image: url('https://picsum.photos/1700/750/?random');
 }
 .news-post-01-bg{
     background-image: url('../images/news/01.jpg');
@@ -34,4 +34,21 @@ replace preview images directly;
 }
 .news-post-03-bg{
     background-image: url('../images/news/03.jpg');
+}
+.profesionales-bg{
+    background-image: url('https://placeimg.com/430/200/tech/grayscale');
+    min-height: 200px;
+    
+}
+.expertos-bg{
+    background-image: url('https://placeimg.com/430/200/any/sepia');
+    min-height: 200px;
+}
+.servicios-bg{
+    background-image: url('https://picsum.photos/430/200/?random');
+    min-height: 200px;
+}
+.portafolios-bg{
+    background-image: url('https://source.unsplash.com/random/430x200');
+    min-height: 200px;
 }

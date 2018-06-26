@@ -16,6 +16,9 @@ there.
         padding-left: 50px;
         padding-right: 50px;
     }
+    .imagenHeights{
+        height: 412px;
+    }
 }
 /* Laptop */
 @media (max-width: 1200px) {
@@ -23,6 +26,9 @@ there.
         max-width: 1100px;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .imagenHeights{
+        height: 300px;
     }
 }
 /* Medium Desktops */

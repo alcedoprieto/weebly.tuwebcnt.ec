@@ -15,6 +15,7 @@
 - 4. Navigation
 - 5. Pages
 - 6. Utilities
+- 7. Otros
 */
 
 
@@ -118,9 +119,9 @@ a{
 a:focus { 
       outline: none; 
 }
-@media (min-width: 1024px) and (max-width: 5000px) {
+@media (min-width: 1600px) and (max-width: 5000px) {
   .container{
-    max-width: 960px;
+    width: 1440px;
   }
 }
 /*Preloader*/
@@ -1195,7 +1196,7 @@ fieldset h1 {
   padding: 60px;
 }
 .pad-top{
-  padding-top: 90px;
+  padding-top: 10px;
 }
 .pad-top-half{
   padding-top: 60px;
@@ -1204,7 +1205,7 @@ fieldset h1 {
   padding-top: 30px;
 }
 .pad-bottom{
-  padding-bottom: 90px;
+  padding-bottom: 10px;
 }
 .pad-bottom-half{
   padding-bottom: 60px;
@@ -1339,4 +1340,40 @@ Please read PDF guide to manage colors via LESS with just a single line of code 
 }
 #ImagenPost{
   width: 100%;
+}
+.typed-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  min-height: 50px;
+  min-width: 80%;
+  border: 2px solid #009fe3;
+  -webkit-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  line-height: 50px;
+  text-align: center;
+}
+.typed-btn:hover {
+  border: 2px solid #ffc740;
+}
+.btn-index{
+  min-width: 250px;
+}
+.alineacionVertical{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gridBotones{
+  display: grid;
+}
+.contenerdorFlex{
+  display: flex;
 }

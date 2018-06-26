@@ -219,7 +219,7 @@ Licensed under MIT
 /* Number Counters */   
   
   .elements-counter-wrap {
-    opacity: 0;
+    /*opacity: 0;*/
     display: table;
     margin-left: 0;
     text-align: center;
@@ -257,7 +257,7 @@ Licensed under MIT
   }
   
   .elements-counter .subject{
-
+    margin-bottom: 20px;
     margin-top: 20px;
   }
   
