@@ -175,6 +175,7 @@
             $container1.isotope('layout');
             }, 100);
             // filtering
+            /*
             $('.works-filter li a').on('click', function() {
                 $('.works-filter li a').removeClass('active');
                 $(this).addClass('active');
@@ -196,7 +197,7 @@
                 return false;
             });
 
-
+            */
                 //forcing a perfect masonry layout after initial load
                 setTimeout(function() {
                 $container1.isotope('layout');
