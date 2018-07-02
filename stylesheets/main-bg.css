@@ -24,7 +24,8 @@ replace preview images directly;
     background-image: url('../images/featured/05.jpg');
 }
 .about-bg{
-    background-image: url('https://picsum.photos/1700/750/?random');
+    /*background-image: url('https://picsum.photos/1700/750/?random');*/
+    background-image: url('../images/varias/banner/135.jpg');
 }
 .news-post-01-bg{
     background-image: url('../images/news/01.jpg');
@@ -35,20 +36,69 @@ replace preview images directly;
 .news-post-03-bg{
     background-image: url('../images/news/03.jpg');
 }
-.profesionales-bg{
-    background-image: url('https://placeimg.com/430/200/tech/grayscale');
+.delbarrio-bg{
+    background-image: url('../images/varias/getImage.php?dir=delbarrio');
     min-height: 200px;
-    
+    width: 360px;
+    background-size: cover;
+}
+.emprendimientos-bg{
+    background-image: url('../images/varias/getImage.php?dir=emprendimientos');
+    min-height: 200px;
+    width: 360px;
+    background-size: cover;
+}
+.entretenimiento-bg{
+    background-image: url('../images/varias/getImage.php?dir=entretenimiento');
+    min-height: 200px;
+    width: 360px;
+    background-size: cover;
 }
 .expertos-bg{
-    background-image: url('https://placeimg.com/430/200/any/sepia');
+    background-image: url('../images/varias/getImage.php?dir=expertos');
     min-height: 200px;
+    width: 360px;
+    background-size: cover;
+}
+.huecas-bg{
+    background-image: url('../images/varias/getImage.php?dir=huecas');
+    min-height: 200px;
+    width: 360px;
+    background-size: cover;
+}
+.profesionales-bg{
+    background-image: url('../images/varias/getImage.php?dir=profesionales');
+    min-height: 200px;
+    width: 360px;
+    background-size: cover;
 }
 .servicios-bg{
-    background-image: url('https://picsum.photos/430/200/?random');
+    background-image: url('../images/varias/getImage.php?dir=servicios');
     min-height: 200px;
+    width: 360px;
+    background-size: cover;
+}
+.negocios-bg{
+    background-image: url('../images/varias/getImage.php?dir=negocios');
+    min-height: 200px;
+    width: 360px;
+    background-size: cover;
+}
+.ecommerce-bg{
+    background-image: url('../images/varias/getImage.php?dir=ecommerce');
+    min-height: 200px;
+    width: 360px;
+    background-size: cover;
 }
 .portafolios-bg{
-    background-image: url('https://source.unsplash.com/random/430x200');
+    background-image: url('../images/varias/getImage.php?dir=portafolios');
     min-height: 200px;
+    width: 360px;
+    background-size: cover;
+}
+.turismo-bg{
+    background-image: url('../images/varias/getImage.php?dir=turismo');
+    min-height: 200px;
+    width: 360px;
+    background-size: cover;
 }

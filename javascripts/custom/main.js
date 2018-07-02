@@ -253,7 +253,26 @@ $(document).ready(function(){
     $('.imagenHeights').height($('#ImagenPost').height());
   });
 
-
+//Script de Cookies
+  window.addEventListener("load", function cookie(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#009fe3"
+        },
+        "button": {
+          "background": "transparent",
+          "text": "#fff",
+          "border": "#fff"
+        }
+      },
+      "content": {
+        "message": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios. Si continúa con la navegación, consideraremos que acepta este uso.",
+        "dismiss": "Aceptar",
+        "link": "Leer más",
+        "href": "http://weebly.tuwebcnt.ec/Recursos/web/politicas.html"
+      }
+    })});
 
 
 

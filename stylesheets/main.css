@@ -121,7 +121,7 @@ a:focus {
 }
 @media (min-width: 1600px) and (max-width: 5000px) {
   .container{
-    width: 1440px;
+    width: 1470px;
   }
 }
 /*Preloader*/
@@ -1358,6 +1358,7 @@ Please read PDF guide to manage colors via LESS with just a single line of code 
   transition: 0.5s;
   line-height: 50px;
   text-align: center;
+  background-color: rgb(23,32,42,0.5);
 }
 .typed-btn:hover {
   border: 2px solid #ffc740;
@@ -1376,4 +1377,28 @@ Please read PDF guide to manage colors via LESS with just a single line of code 
 }
 .contenerdorFlex{
   display: flex;
+}
+.espacioIzquierdo{
+  margin-left: 10px;
+}
+.row {
+  text-align: center;
+}
+.centro{
+  display: inline-block;
+}
+.footerCNT {
+  background: #fff !important;
+  border-top: 5px solid #009de0;
+  margin: 30px 0 0;
+  padding: 0 !important;
+}
+.footer {
+  border-top: 5px solid #009de0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #dedede;
+  text-align: center;
 }
