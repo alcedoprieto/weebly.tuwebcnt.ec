@@ -13,7 +13,7 @@ random_int(100, 999);count($a);
 */
 
 $ficheros  = array_slice(scandir($directorio), 2);  
-$i = random_int(0, count($ficheros)-1);
+$i = rand(0, count($ficheros)-1);
 $imagenes = new Imagick($directorio.'/'.$ficheros[$i]);
 echo $imagenes;
 
