@@ -1402,3 +1402,25 @@ Please read PDF guide to manage colors via LESS with just a single line of code 
   background-color: #dedede;
   text-align: center;
 }
+.footer ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.social-media li {
+  display: inline-block;
+  margin-right: 8px;
+  width: 32px;
+  margin-top: 10px;
+}
+.footer-logo{
+  height: 96px;
+}
+.footer-cont{
+  width: 1100px;
+  display: inline-block;
+}
+.footer-foot{
+  border-top: 1px solid #009de0;
+  margin-top: 10px;
+}

@@ -102,3 +102,26 @@ replace preview images directly;
     width: 360px;
     background-size: cover;
 }
+.smedia-01{
+    background-image: url('../images/Facebook.png');
+    background-repeat:no-repeat; 
+    background-size: 32px;   
+    height: 32px;
+}
+.smedia-02{
+    background-image: url('../images/Twitter.png');
+    background-repeat:no-repeat; 
+    background-size: 32px;   
+    height: 32px;
+}
+.smedia-03{
+    background-image: url('../images/Instagram.png');
+    background-repeat:no-repeat;  
+    background-size: 32px;
+    height: 32px;
+}
+.footer-logo{
+    background-image: url('../images/Logo_CNT_5.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
